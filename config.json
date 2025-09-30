@@ -8,7 +8,7 @@
   "text_cache_dir": "working/text_cache",
   "chunks_cache": "working/chunks_cache.pkl",
   "embeddings_cache": "working/embeddings_cache.pkl",
-  "submission_path": "./submission.csv",
+  "submission_path": "output/submission.csv",
 
   "chunk_size": 300,
   "chunk_overlap": 50,
