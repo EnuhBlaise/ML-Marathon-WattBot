@@ -10,11 +10,11 @@
   "embeddings_cache": "working/embeddings_cache.pkl",
   "submission_path": "output/submission.csv",
 
-  "chunk_size": 300,
+  "chunk_size": 50,
   "chunk_overlap": 50,
   "max_chunks_per_query": 7,
 
-  "embedding_model": "all-MiniLM-L6-v2",
+  "embedding_model": "intfloat/e5-large-v2",
   "qa_model": "distilbert-base-cased-distilled-squad",
 
   "similarity_threshold": 0.15,
