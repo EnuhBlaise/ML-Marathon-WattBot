@@ -1,0 +1,42 @@
+{
+  "base_path": "WattBot",
+  "metadata_path": "data/metadata.csv",
+  "train_qa_path": "data/train_QA.csv",
+  "test_q_path": "data/test_Q.csv",
+
+  "cache_dir": "working/document_cache",
+  "text_cache_dir": "working/text_cache",
+  "chunks_cache": "working/chunks_cache.pkl",
+  "embeddings_cache": "working/embeddings_cache.pkl",
+  "submission_path": "output/submission.csv",
+
+  "chunk_size": 100,
+  "chunk_overlap": 50,
+  "max_chunks_per_query": 7,
+
+  "embedding_model": "intfloat/e5-large-v2",
+  "qa_model": "distilbert-base-cased-distilled-squad",
+
+  "similarity_threshold": 0.15,
+  "max_context_length": 2000,
+  "batch_size": 16,
+
+  "max_docs_to_process": null,
+  "use_sample_mode": false,
+  "skip_download": false,
+
+  "max_pdf_pages": 150,
+  "max_text_length": 100000,
+  "min_chunk_length": 50,
+
+  "advanced_pdf_processing": {
+    "prefer_unstructured": true,
+    "use_pymupdf_ocr": true,
+    "ocr_fallback_threshold": 500,
+    "enhance_images_for_ocr": true,
+    "extract_tables": true,
+    "high_resolution_processing": true,
+    "tesseract_config": "--psm 6 -l eng",
+    "image_dpi": 300
+  }
+}
