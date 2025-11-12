@@ -16,12 +16,17 @@
     "models": {
       "e5-large": {
         "model_name": "intfloat/e5-large-v2",
-        "weight": 0.5,
+        "weight": 0.4,
         "dimensions": 1024
       },
       "bge-large": {
         "model_name": "BAAI/bge-large-en-v1.5",
-        "weight": 0.5,
+        "weight": 0.35,
+        "dimensions": 1024
+      },
+      "instructor-xl": {
+        "model_name": "hkunlp/instructor-xl",
+        "weight": 0.25,
         "dimensions": 1024
       }
     },
