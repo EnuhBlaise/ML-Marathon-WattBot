@@ -1,5 +1,7 @@
 # ML-Marathon-WattBot
 Github Repo for Machine Learning Marathon WattBot Project
+Evidence-based energy estimation for AI workloads using retrieval augmented generation (RAG).
+
 
 ## 🚀 **Advanced PDF Processing System**
 
@@ -81,5 +83,3 @@ For full OCR capabilities, install Tesseract:
 - **Full OCR support** for scanned documents  
 - **Advanced table handling** with structure preservation
 - **Smart fallbacks** ensure maximum content recovery
-
-## ✨ **Ready for Superior Document Processing!**
